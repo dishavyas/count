@@ -15,7 +15,7 @@ body {
     margin-top: 15%;
     margin-right: 60% !important;
     width: 30% !important;
-    ;
+    background-color: white !important;
     height: 50vh;
     box-shadow: 12px 11px 41px 0px rgba(255, 255, 255, 0.75);
     -webkit-box-shadow: 12px 11px 41px 0px rgba(255, 255, 255, 0.75);
@@ -77,26 +77,27 @@ body {
 
 @media(max-width:413px) {
     body {
-        height: 63vh;
-        background: none;
-        background-image: url(./images/media-bg.jpg);
-        background-size: 439px;
-        background-repeat: no-repeat;
-
+       background: none;
+      background-image: url(./images/media-bg.gif);
+      background-size: cover;
     }
+   
 
     .container {
         width: 80% !important;
+        height: 50%;
         margin-top: 60%;
         margin-left: 8% !important;
         box-shadow: none;
         opacity: 0.7;
-        border-radius: 5px;
+        background-color: gainsboro !important;
+        border-radius: 8px;
+
 
     }
 
     .btn-container {
-        margin-left: 10%;
+        margin-left: 7%;
     }
 
     .btn {
@@ -107,6 +108,7 @@ body {
     .copyright{
         /* margin-bottom: 550px; */
         margin-top: 5%;
+        /* background-color: black; */
     }
     .copyright h4{
         font-size: 10px;

@@ -15,7 +15,7 @@ body {
     margin-top: 15%;
     margin-right: 60% !important;
     width: 30% !important;
-    background-color: white !important;
+    /* background-color: white !important; */
     height: 50vh;
     box-shadow: 12px 11px 41px 0px rgba(255, 255, 255, 0.75);
     -webkit-box-shadow: 12px 11px 41px 0px rgba(255, 255, 255, 0.75);
